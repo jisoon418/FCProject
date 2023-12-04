@@ -51,6 +51,10 @@ public class MovieOperations {
         } else {
             System.out.println("잘못된 장르 입력입니다. 1, 2, 3 중 하나를 입력하세요.");
         }
+
+    }
+    public boolean isEmpty() {
+        return movies.isEmpty();
     }
 
     public boolean isValidGenre(int genre) {

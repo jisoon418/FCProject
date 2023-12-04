@@ -67,6 +67,13 @@ public class MovieProcessor {
 
     private static void searchMoviesByGenre(Scanner scanner, MovieOperations operations) {
         int genre;
+
+        // 데이터가 없는 경우 처리
+        if (operations.isEmpty()) {
+            System.out.println("데이터가 없습니다.");
+            return;
+        }
+
         do {
             System.out.print("검색할 장르를 입력하세요 (1: 드라마, 2: 액션, 3: 호러): ");
             genre = scanner.nextInt();
