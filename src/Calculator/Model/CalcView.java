@@ -34,7 +34,7 @@ public class CalcView {
                 if (number.getNum2() != 0) {
                     System.out.printf("%s의 몫은 %.2f입니다.%n", op, result);
                 } else {
-                    System.out.println("0으로 나눌 수 없습니다");
+                    System.out.println("0으로 나눌 수 없습니다.");
                 }
                 break;
             default:

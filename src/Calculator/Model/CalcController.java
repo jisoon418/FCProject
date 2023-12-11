@@ -31,7 +31,7 @@ public class CalcController {
             case "/":
                 return service.div(number);
             default:
-                System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+                System.out.println("잘못된 입력입니다. 다시 입력해주세요..");
                 return new NumberDTO();
         }
     }

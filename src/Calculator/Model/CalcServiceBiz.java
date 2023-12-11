@@ -29,7 +29,7 @@ public class CalcServiceBiz implements ICalcService {
             number.setResult(result);
         } else {
             // 0으로 나누는 경우 예외 처리
-            System.out.println("0으로 나눌 수 없습니다");
+            System.out.println("0으로 나눌 수 없습니다.");
         }
         return number;
     }
