@@ -37,6 +37,16 @@ public class CalcView {
                     System.out.println("0으로 나눌 수 없습니다.");
                 }
                 break;
+            case "%":
+                if (number.getNum2() != 0) {
+                    System.out.printf("%s의 나머지는 %.2f입니다.%n", op, result);
+                } else {
+                    System.out.println("0으로 나눌 수 없습니다.");
+                }
+                break;
+            case "^":
+                System.out.printf("%s의 제곱근은 %.2f입니다.%n", op, result);
+                break;
             default:
                 System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
         }

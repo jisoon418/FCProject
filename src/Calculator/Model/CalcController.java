@@ -30,6 +30,8 @@ public class CalcController {
                 return service.mul(number);
             case "/":
                 return service.div(number);
+            case"%":
+                return service.rem(number);
             default:
                 System.out.println("잘못된 입력입니다. 다시 입력해주세요..");
                 return new NumberDTO();
